@@ -1,6 +1,6 @@
 const today = new Date();
 const startDate = new Date();
-startDate.setDate(today.getDate() - 7); 
+startDate.setDate(today.getDate() - 30); 
 
 const formattedStartDate = startDate.toISOString().split('T')[0];
 const formattedEndDate = today.toISOString().split('T')[0];
